@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="h3XiNgJIZXh53BZ8/Cu9ug==" exportKeySalt="f972529d-9cfa-4b98-9317-c0dcfeab5728" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="3/rzX1upNvmojXEN8SNFgA==" exportKeySalt="391417d9-6c86-4f44-bba8-289c4413ebc7" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpScen">
 		<Field name="CecSessBehavior" type="java.lang.String">null</Field>
 	<Field name="CecSessPollIntv" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
-	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2023-12-11 11:53:05.0]]></Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2023-12-11 12:01:03.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[22cd1d03-e68d-4e03-8a8d-d40d023194a5]]></Field>
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
@@ -21,7 +21,7 @@
 	<Field name="ITrt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtScen" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IVar" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2023-12-11 11:53:06.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2023-12-11 12:01:04.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="MaxCecSess" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="RepGuid" type="java.lang.String">null</Field>
@@ -29,7 +29,7 @@
 	<Field name="RestartType" type="java.lang.String">null</Field>
 	<Field name="ScenName" type="java.lang.String"><![CDATA[SCN_T_EMP_1]]></Field>
 	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[14]]></Field>
+	<Field name="ScenSnapshotNo" type="com.sunopsis.sql.DbInt"><![CDATA[15]]></Field>
 	<Field name="ScenVersion" type="java.lang.String"><![CDATA[001]]></Field>
 	<Field name="VLastDate" type="java.sql.Timestamp">null</Field>
 </Object>
@@ -72,7 +72,7 @@
    </node>
    <target name="T_EMP" resource="T_EMP" model="M_TARGET" logicalSchema="LS_TARGET" forcedContext=""/>
 </map-generation-info>]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[091c980f-6475-4c95-b262-ddf281fed44f]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a81dcfc2-1267-4a6b-9529-a4d3b22eb057]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String"><![CDATA[Y]]></Field>
 	<Field name="ITxtVarValue" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JagentLschemaName" type="java.lang.String">null</Field>
@@ -122,7 +122,7 @@
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[31ee8ada-9b5f-4e8f-8832-e5486ebbfc36]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[8753619f-2d92-4267-9442-cb4b8e76a41c]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -162,7 +162,7 @@
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[66ccdb75-69d0-4028-834b-5a55bb08954a]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[3e9df709-0df6-4c63-b7b6-b39d6b85e5a5]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -204,7 +204,7 @@
 truncate table <?= odiRef.getObjectName("L", "T_EMP", "LS_TARGET", "A") ?>
            ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[d6ad75df-1d8b-42ed-af5a-39235d5c47aa]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bdbd7b7c-060d-435f-894d-d94ea894bcfb]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -244,7 +244,7 @@ truncate table <?= odiRef.getObjectName("L", "T_EMP", "LS_TARGET", "A") ?>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[92566c29-767b-4d48-a35e-2e187799a3c4]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7664ea59-8307-4011-9f99-2f40636a4aa2]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -284,7 +284,7 @@ truncate table <?= odiRef.getObjectName("L", "T_EMP", "LS_TARGET", "A") ?>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[ddac4afa-a17d-477f-9e76-02a93ed47858]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[7739c4f0-ab6e-4daf-91b9-a7a15a88f2fe]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -337,7 +337,7 @@ INSERT
     DEPTNO 
   ) 
 SELECT 
-  trim(S_EMP_A.EMPNO) /*vendor2*/ ,
+  trim(S_EMP_A.EMPNO) /*vendor1*/ ,
   S_EMP_A.ENAME ,
   S_EMP_A.JOB ,
   S_EMP_A.MGR ,
@@ -349,7 +349,7 @@ FROM
   <?= odiRef.getObjectName("L", "%COL_PRF0S_EMP", "LS_TARGET", "W") ?> S_EMP_A  
       ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[a1bb92fb-cba7-4bda-972d-c40047c26757]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2bc6fffa-41ba-46f8-87ca-aefa0df4ec6c]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -389,7 +389,7 @@ FROM
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[70e102b3-2d93-40ce-a5b6-753908df24fd]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e5b73528-1f9e-42ca-a596-f0892bc1e11e]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -462,7 +462,7 @@ values
 	:DEPTNO
 )  ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[68282e1d-431d-42fe-8907-f538dc145264]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[0603775a-9001-42d1-9c89-74f5d8f3cfab]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -500,17 +500,9 @@ values
 	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
 	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[LS_TARGET]]></Field>
 	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
-	<Field name="DefTxt" type="java.lang.String"><![CDATA[
-BEGIN
-DBMS_STATS.GATHER_TABLE_STATS (
-    ownname =>	'<?= odiRef.getInfo("DEST_WORK_SCHEMA") ?>',
-    tabname =>	'<?= odiRef.getObjectShortName("L", "%COL_PRF0S_EMP", "W") ?>',
-    estimate_percent =>	DBMS_STATS.AUTO_SAMPLE_SIZE
-);
-END;
-  ]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[drop table <?= odiRef.getObjectName("L", "%COL_PRF0S_EMP", "W") ?> purge  ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[d93d5b7f-fd2f-4a97-91ce-51902e332bef]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[2ae231b8-3ffc-4158-9be7-d35d9cdef4c6]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -518,11 +510,11 @@ END;
 	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
 	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
 	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
 	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
 	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
-	<Field name="TaskName1" type="java.lang.String"><![CDATA[Analyze work table]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Drop work table]]></Field>
 	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle]]></Field>
 	<Field name="TaskName3" type="java.lang.String">null</Field>
 	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
@@ -548,9 +540,17 @@ END;
 	<Field name="DefIsolLevel" type="java.lang.String">null</Field>
 	<Field name="DefLschemaName" type="java.lang.String"><![CDATA[LS_TARGET]]></Field>
 	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
-	<Field name="DefTxt" type="java.lang.String"><![CDATA[drop table <?= odiRef.getObjectName("L", "%COL_PRF0S_EMP", "W") ?> purge  ]]></Field>
+	<Field name="DefTxt" type="java.lang.String"><![CDATA[
+BEGIN
+DBMS_STATS.GATHER_TABLE_STATS (
+    ownname =>	'<?= odiRef.getInfo("DEST_WORK_SCHEMA") ?>',
+    tabname =>	'<?= odiRef.getObjectShortName("L", "%COL_PRF0S_EMP", "W") ?>',
+    estimate_percent =>	DBMS_STATS.AUTO_SAMPLE_SIZE
+);
+END;
+  ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[78bb5c35-8f92-4772-b08b-37aa713b9740]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[da7a02ea-4c3d-4e4b-8e60-532896cb6a1c]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -558,11 +558,11 @@ END;
 	<Field name="LogLevDet" type="java.lang.String"><![CDATA[5]]></Field>
 	<Field name="MapTaskType" type="java.lang.String"><![CDATA[EM]]></Field>
 	<Field name="Nno" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
-	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[20]]></Field>
+	<Field name="OrdTrt" type="com.sunopsis.sql.DbInt"><![CDATA[70]]></Field>
 	<Field name="ParScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
 	<Field name="ScenNo" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
-	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[60]]></Field>
-	<Field name="TaskName1" type="java.lang.String"><![CDATA[Drop work table]]></Field>
+	<Field name="ScenTaskNo" type="com.sunopsis.sql.DbInt"><![CDATA[90]]></Field>
+	<Field name="TaskName1" type="java.lang.String"><![CDATA[Analyze work table]]></Field>
 	<Field name="TaskName2" type="java.lang.String"><![CDATA[LKM SQL to Oracle]]></Field>
 	<Field name="TaskName3" type="java.lang.String">null</Field>
 	<Field name="TaskType" type="java.lang.String"><![CDATA[C]]></Field>
@@ -601,7 +601,7 @@ END;
 )
 NOLOGGING  ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[7dbf045e-909f-4d32-b2d1-c7646c4d339f]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[092369d0-e795-4178-9d10-a3a2433e4e56]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -641,7 +641,7 @@ NOLOGGING  ]]></Field>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[f26dc797-7c7b-459b-a738-0aadb33887ba]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e4e76f0e-c34c-4ffd-82ab-365b05783b1a]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -681,7 +681,7 @@ NOLOGGING  ]]></Field>
 	<Field name="DefTechIntName" type="java.lang.String">null</Field>
 	<Field name="DefTxt" type="java.lang.String">null</Field>
 	<Field name="ExeChannel" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[847ec12d-6bd2-4b4a-acb8-e8c991db5b3a]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[0a85d129-7a78-46ca-a8ea-ea2297517d23]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -721,7 +721,7 @@ NOLOGGING  ]]></Field>
 	<Field name="DefTechIntName" type="java.lang.String"><![CDATA[ORACLE]]></Field>
 	<Field name="DefTxt" type="java.lang.String"><![CDATA[drop table <?= odiRef.getObjectName("L", "%COL_PRF0S_EMP", "W") ?> purge  ]]></Field>
 	<Field name="ExeChannel" type="java.lang.String"><![CDATA[J]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[e8a5217a-af00-4833-86e7-91362061c961]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[87e8f150-a6b7-4fe7-9a3d-24b89abe60c4]]></Field>
 	<Field name="IndErr" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndLogFinalCmd" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndLogMethod" type="java.lang.String">null</Field>
@@ -754,7 +754,7 @@ NOLOGGING  ]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_SCENSTEP.12.0]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[091c980f-6475-4c95-b262-ddf281fed44f]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[a81dcfc2-1267-4a6b-9529-a4d3b22eb057]]></Field>
  <Field name="RefObjFQName" type="java.lang.String">null</Field>
  <Field name="RefObjFQType" type="java.lang.String">null</Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String">null</Field>
